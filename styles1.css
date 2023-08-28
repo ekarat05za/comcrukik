@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Kanit&display=swap');
+body {
+    font-family: kanit;
+    background-color: #009CFF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 551px;
+    height: 554px;
+    flex-shrink: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #4ED6FF;
+    font-family: Kanit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+font-family: Kanit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 31px;
+    height: 56px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: Kanit;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 72px;
+    background: rgba(240, 125, 234, 0.96);
+}
+
+h3 {
+    margin-top: -20px;
+    text-align: center;
+    color: #FF4E4E;
+    font-family: Kanit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
